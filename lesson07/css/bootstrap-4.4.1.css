@@ -104,8 +104,9 @@ address {
 ol,
 ul,
 dl {
-  margin-top: 0;
-  margin-bottom: 1rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    border-style: solid;
 }
 
 ol ol,
@@ -439,8 +440,8 @@ mark,
 }
 
 .list-unstyled {
-  padding-left: 0;
-  list-style: none;
+    padding-left: 0;
+    list-style: none;
 }
 
 .list-inline {
