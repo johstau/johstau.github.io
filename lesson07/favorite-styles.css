@@ -23,9 +23,13 @@ header h2 {
     color: #2191FB;
     text-shadow: 0px 5px 11.05px rgba(0, 0, 0, 0.56);
     text-align: center;
-    margin-top: 1em;
     letter-spacing: 0.12em;
     font-family: Masque, Jura;
+    margin-top: 70px;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
 }
 header p {
     line-height: 1em;
@@ -54,4 +58,154 @@ footer {
     padding-top: 5px;
     color: #2E4057;
     background-color: #2FBF71;
+}
+.navbar-nav .nav-item {
+}
+.mobile-spacer {
+    display: none;
+    border-style: none;
+    border-color: #FF0004;
+}
+
+
+
+@media screen and (max-width:991.98px){
+.navbar-nav .nav-item {
+    border: 1px solid #3AA8FF;
+    text-align: left;
+    width: 100px;
+    background-color: #CFE7FE;
+}
+header {
+    background-image: url(15355888_SL_031721_41490_22.jpg);
+    background-position: center center;
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+    height: 224px;
+    background-color: #2191FB;
+    font-family: Masque;
+    font-size: 29px;
+}
+
+
+}
+
+@media screen and (max-width:659.98px){
+header h2 {
+    line-height: 1.2;
+    font-size: 60px;
+    font-family: Masque, Jura;
+    color: #2191FB;
+    text-shadow: 0px 5px 11.05px rgba(0, 0, 0, 0.56);
+    text-align: center;
+    letter-spacing: 0.03px;
+    font-family: Masque, Jura;
+    margin-top: 1.4px;
+    height: 60px;
+    text-decoration: none;
+}
+header p {
+    line-height: 1em;
+    font-weight: 700;
+    font-size: 100px;
+    font-family: Jura;
+    color: #2FBF71;
+    text-shadow: 0px 3px 5.95px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    letter-spacing: 0.3px;
+    font-style: normal;
+}
+header {
+    background-image: url(15355888_SL_031721_41490_22.jpg);
+    background-position: center center;
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+    height: 160px;
+    background-color: #2191FB;
+}
+
+
+
+}
+
+@media (max-width: 500px){
+header h2 {
+    line-height: 1.2;
+    font-size: 60px;
+    font-family: Masque, Jura;
+    color: #2191FB;
+    text-shadow: 0px 5px 11.05px rgba(0, 0, 0, 0.56);
+    text-align: center;
+    letter-spacing: 0.03px;
+    font-family: Masque, Jura;
+    margin-top: 1.4px;
+    height: 60px;
+    text-decoration: none;
+}
+header p {
+    line-height: 1em;
+    font-weight: 700;
+    font-size: 100px;
+    font-family: Jura;
+    color: #2FBF71;
+    text-shadow: 0px 3px 5.95px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    letter-spacing: 0.3px;
+    font-style: normal;
+}
+header {
+    background-image: url(15355888_SL_031721_41490_22.jpg);
+    background-position: center center;
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+    height: 160px;
+    background-color: #2191FB;
+}
+.mobile-spacer {
+    max-width: 500px;
+    display: block;
+}
+
+
+
+
+}
+
+@media (max-width: 1139px){
+header h2 {
+    line-height: 1.2;
+    font-size: 60px;
+    font-family: Masque, Jura;
+    color: #2191FB;
+    text-shadow: 0px 5px 11.05px rgba(0, 0, 0, 0.56);
+    text-align: center;
+    letter-spacing: 0.03px;
+    font-family: Masque, Jura;
+    margin-top: 1.4px;
+    height: 160px;
+    text-decoration: none;
+}
+header p {
+    line-height: 1em;
+    font-weight: 700;
+    font-size: 100px;
+    font-family: Jura;
+    color: #2FBF71;
+    text-shadow: 0px 3px 5.95px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    letter-spacing: 0.3px;
+    font-style: normal;
+}
+header {
+    background-image: url(15355888_SL_031721_41490_22.jpg);
+    background-position: center center;
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+    height: 160px;
+    background-color: #2191FB;
+}
+
+
+
+
 }
